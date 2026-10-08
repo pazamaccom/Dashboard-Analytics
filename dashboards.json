@@ -1,0 +1,44 @@
+[
+  {
+    "id": "turkey",
+    "name": "Turkey Fund Tracker",
+    "port": 8081,
+    "url": "http://100.127.41.102:8081/"
+  },
+  {
+    "id": "market",
+    "name": "US Market Health",
+    "port": 8085,
+    "url": "http://100.127.41.102:8085/"
+  },
+  {
+    "id": "stocks",
+    "name": "Stock Attractiveness",
+    "port": 8083,
+    "url": "http://100.127.41.102:8083/"
+  },
+  {
+    "id": "drawdown",
+    "name": "US Drawdown and Downturn",
+    "port": 8080,
+    "url": "http://100.127.41.102:8080/"
+  },
+  {
+    "id": "yield",
+    "name": "Yield Curve",
+    "port": 8084,
+    "url": "http://100.127.41.102:8084/"
+  },
+  {
+    "id": "alpha",
+    "name": "Alpha Signal Scout",
+    "port": 8082,
+    "url": "http://100.127.41.102:8082/"
+  },
+  {
+    "id": "btc",
+    "name": "BTC Trading Bot",
+    "port": 8086,
+    "url": "http://100.127.41.102:8086/"
+  }
+]
