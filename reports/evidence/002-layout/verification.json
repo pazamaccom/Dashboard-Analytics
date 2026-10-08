@@ -1,0 +1,313 @@
+{
+  "breakpoints": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    },
+    {
+      "width": 1536,
+      "height": 1024,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "card_count": 7,
+      "overlap": false,
+      "horizontal_overflow": false,
+      "equal_dimensions": true,
+      "quote_separate": true,
+      "statuses": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "online": true
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "online": true
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "online": true
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "online": true
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "online": true
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "online": true
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "online": false
+        }
+      ]
+    }
+  ],
+  "browser_errors": [],
+  "search": "passed",
+  "theme_persistence": "passed",
+  "destination_http_checks": [
+    {
+      "id": "turkey",
+      "http_status": 200
+    },
+    {
+      "id": "market",
+      "http_status": 200
+    },
+    {
+      "id": "stocks",
+      "http_status": 200
+    },
+    {
+      "id": "drawdown",
+      "http_status": 200
+    },
+    {
+      "id": "yield",
+      "http_status": 200
+    },
+    {
+      "id": "alpha",
+      "http_status": 200
+    },
+    {
+      "id": "btc",
+      "http_status": null
+    }
+  ]
+}
