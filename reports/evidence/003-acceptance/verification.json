@@ -1,0 +1,131 @@
+{
+  "tested_commit": "214a1f6158a0ff24cdd4f2015d398282abf16b3a",
+  "checks": [
+    {
+      "profile": "desktop",
+      "navigation": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "actual_navigation": false,
+          "expected_offline_intercept": true
+        }
+      ],
+      "search_all_names_case_and_whitespace": "passed",
+      "search_description_and_empty_reset": "passed",
+      "both_themes_persist": "passed",
+      "live_health": "six online, BTC expected offline",
+      "synthetic_health_tests": "future BTC online, API unavailable, 30-second polling and recovery passed",
+      "javascript_errors": []
+    },
+    {
+      "profile": "mobile",
+      "navigation": [
+        {
+          "id": "turkey",
+          "url": "http://100.127.41.102:8081/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "market",
+          "url": "http://100.127.41.102:8085/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "stocks",
+          "url": "http://100.127.41.102:8083/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "drawdown",
+          "url": "http://100.127.41.102:8080/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "yield",
+          "url": "http://100.127.41.102:8084/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "alpha",
+          "url": "http://100.127.41.102:8082/",
+          "actual_navigation": true,
+          "expected_offline_intercept": false
+        },
+        {
+          "id": "btc",
+          "url": "http://100.127.41.102:8086/",
+          "actual_navigation": false,
+          "expected_offline_intercept": true
+        }
+      ],
+      "search_all_names_case_and_whitespace": "passed",
+      "search_description_and_empty_reset": "passed",
+      "both_themes_persist": "passed",
+      "live_health": "six online, BTC expected offline",
+      "synthetic_health_tests": "future BTC online, API unavailable, 30-second polling and recovery passed",
+      "javascript_errors": []
+    }
+  ],
+  "automatic_startup": {
+    "installed_matches_repository": true,
+    "RunAtLoad": true,
+    "KeepAlive": true,
+    "running": true,
+    "port": 8087,
+    "scope": "per-user LaunchAgent starts at login; not a system boot daemon",
+    "reboot_or_logout_test": "not performed; no services restarted"
+  },
+  "production_file_hashes_unchanged": {
+    "dashboards.json": "1e00018273bc99cd3c24576e7d002ec321e0ca561288ef2b50df8a73e3ffdfd3",
+    "deploy/com.paolo.analytics.web.plist": "cdbba230e0eafcb4f889e7a6ffb9afadbf9299f133dc6d811c8a8ab4aa036da2",
+    "public/app.js": "2c89349de47e85116fa04ef5b5c44e642526a1d2624d47368681f1c90d402633",
+    "public/assets/favicon.svg": "d1b58044bd0805f1d6c2be50dce0ec999e3f9e50e0324089bcdf8ba93009d475",
+    "public/assets/reference.png": "0174a1f1f2f34aa01cdc0c5ec859af4ec07beb25140198525779eb2d36d998fb",
+    "public/index.html": "e081c43c190954bafd815a52cd66df1394192cade12e1a3628c45bdc97b484c7",
+    "public/styles.css": "a6c81cc18083270e859a76b638a0e94c8b733393bf9848c0fba91c70f45281ad",
+    "server.py": "13250e96fcfadfb6efa38e8bbc217b0db9037a714b515f69e090977604a01a97"
+  },
+  "independence": "Separate process, port 8087, standard-library runtime and LaunchAgent; only read-only HTTP reachability requests and direct browser navigation to independent destinations."
+}

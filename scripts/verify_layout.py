@@ -6,7 +6,7 @@ from urllib.request import build_opener, ProxyHandler
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / 'reports/evidence/002-layout'
+OUTPUT = Path(os.environ.get('ANALYTICS_EVIDENCE_DIR', str(ROOT / 'reports/evidence/002-layout')))
 OUTPUT.mkdir(parents=True, exist_ok=True)
 URL = os.environ.get('ANALYTICS_URL', 'http://100.127.41.102:8087')
 EXPECTED = json.loads((ROOT / 'dashboards.json').read_text())
