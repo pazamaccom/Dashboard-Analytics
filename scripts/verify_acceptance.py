@@ -10,7 +10,7 @@ from playwright.sync_api import sync_playwright
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'reports/evidence/003-acceptance'
 OUT.mkdir(parents=True,exist_ok=True)
-URL='http://100.127.41.102:8087'
+URL='http://100.88.179.94:8087'
 CONFIG=json.loads((ROOT/'dashboards.json').read_text())
 files=sorted([* (ROOT/'public').rglob('*'),ROOT/'server.py',ROOT/'dashboards.json',ROOT/'deploy/com.paolo.analytics.web.plist'])
 def hashes():return {str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files if p.is_file()}

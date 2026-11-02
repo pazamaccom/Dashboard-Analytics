@@ -54,7 +54,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--host', default='100.127.41.102')
+    parser.add_argument('--host', default='100.88.179.94')
     parser.add_argument('--port', type=int, default=8087)
     args = parser.parse_args()
     if args.host in ('0.0.0.0', '::'):
