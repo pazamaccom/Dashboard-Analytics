@@ -33,8 +33,8 @@ Every dashboard keeps a reserved port in `dashboards.json` (and the matching lin
 | --- | --- | --- |
 | US Drawdown and Downturn | 8080 | Running |
 | Turkey Fund Tracker | 8081 | Running |
-| Alpha Signal Scout | 8082 | Reserved, not running |
-| Stock Attractiveness | 8083 | Reserved, not running |
+| Alpha Signal Scout | 8082 | Running |
+| Stock Attractiveness | 8083 | Running |
 | Yield Curve | 8084 | Running |
 | US Market Health | 8085 | Running |
 | BTC Trading Bot | 8086 | Running |
