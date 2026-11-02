@@ -29,9 +29,9 @@ All dashboard links open a separate tab. Users need existing network permissions
 
 Every dashboard keeps a reserved port in `dashboards.json` (and the matching link in `public/index.html`), whether or not its service runs yet. A dashboard that is not running shows Offline and turns Online by itself once something answers on its port. No portal change is needed. To move a dashboard to another port, update both files and restart the portal.
 
-| Dashboard | Port | State on 2026-11-01 |
+| Dashboard | Port | State on 2026-11-02 |
 | --- | --- | --- |
-| US Drawdown and Downturn | 8080 | Reserved, not running |
+| US Drawdown and Downturn | 8080 | Running |
 | Turkey Fund Tracker | 8081 | Running |
 | Alpha Signal Scout | 8082 | Reserved, not running |
 | Stock Attractiveness | 8083 | Reserved, not running |
